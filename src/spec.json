@@ -1,0 +1,239 @@
+{
+  "title": "Gestione eventi e iscrizioni",
+  "description": "Prototipo per consultare gli eventi culturali della biblioteca, verificare i posti disponibili e registrare nuove iscrizioni.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Panoramica",
+      "description": "Riepilogo degli eventi e della disponibilità dei posti.",
+      "metrics": [
+        {
+          "label": "Eventi in programma",
+          "value": "8"
+        },
+        {
+          "label": "Iscrizioni registrate",
+          "value": "73"
+        },
+        {
+          "label": "Posti ancora disponibili",
+          "value": "41"
+        }
+      ],
+      "columns": [
+        "Evento",
+        "Data",
+        "Categoria",
+        "Posti totali",
+        "Iscrizioni",
+        "Posti rimasti"
+      ],
+      "rows": [
+        [
+          "Letture tra le Nubi",
+          "12/06/2026",
+          "Lettura",
+          "24",
+          "18",
+          "6"
+        ],
+        [
+          "Laboratorio Lumo di carta",
+          "15/06/2026",
+          "Laboratorio",
+          "16",
+          "11",
+          "5"
+        ],
+        [
+          "Vela: racconti in musica",
+          "18/06/2026",
+          "Spettacolo",
+          "30",
+          "22",
+          "8"
+        ],
+        [
+          "Storie del Bosco Blu",
+          "21/06/2026",
+          "Lettura",
+          "20",
+          "9",
+          "11"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "eventi",
+      "title": "Eventi",
+      "description": "Elenco filtrabile degli eventi culturali e dei posti rimasti.",
+      "metrics": [
+        {
+          "label": "Eventi visibili",
+          "value": "8"
+        },
+        {
+          "label": "Posti disponibili",
+          "value": "41"
+        }
+      ],
+      "columns": [
+        "Evento",
+        "Data",
+        "Categoria",
+        "Sala",
+        "Posti totali",
+        "Iscrizioni",
+        "Posti rimasti"
+      ],
+      "rows": [
+        [
+          "Letture tra le Nubi",
+          "12/06/2026",
+          "Lettura",
+          "Sala Lilla",
+          "24",
+          "18",
+          "6"
+        ],
+        [
+          "Laboratorio Lumo di carta",
+          "15/06/2026",
+          "Laboratorio",
+          "Sala Ginestra",
+          "16",
+          "11",
+          "5"
+        ],
+        [
+          "Vela: racconti in musica",
+          "18/06/2026",
+          "Spettacolo",
+          "Sala Lilla",
+          "30",
+          "22",
+          "8"
+        ],
+        [
+          "Storie del Bosco Blu",
+          "21/06/2026",
+          "Lettura",
+          "Sala Ginestra",
+          "20",
+          "9",
+          "11"
+        ],
+        [
+          "Piccoli mondi di argilla",
+          "24/06/2026",
+          "Laboratorio",
+          "Sala Ginestra",
+          "14",
+          "10",
+          "4"
+        ],
+        [
+          "La lanterna di Nubi",
+          "27/06/2026",
+          "Lettura",
+          "Sala Lilla",
+          "18",
+          "12",
+          "6"
+        ],
+        [
+          "Suoni del giardino Vela",
+          "30/06/2026",
+          "Spettacolo",
+          "Sala Lilla",
+          "28",
+          "20",
+          "8"
+        ],
+        [
+          "Segnalibri in fiore",
+          "03/07/2026",
+          "Laboratorio",
+          "Sala Ginestra",
+          "12",
+          "8",
+          "4"
+        ]
+      ],
+      "form": [
+        "Evento",
+        "Data",
+        "Categoria",
+        "Sala",
+        "Posti totali"
+      ]
+    },
+    {
+      "id": "iscrizioni",
+      "title": "Iscrizioni",
+      "description": "Consulta le iscrizioni per evento e registra nuovi partecipanti usando nominativi di fantasia.",
+      "metrics": [
+        {
+          "label": "Iscrizioni totali",
+          "value": "73"
+        },
+        {
+          "label": "Eventi con iscritti",
+          "value": "8"
+        }
+      ],
+      "columns": [
+        "Partecipante",
+        "Evento",
+        "Data iscrizione",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Lumo Rugiada",
+          "Letture tra le Nubi",
+          "02/06/2026",
+          "Confermata"
+        ],
+        [
+          "Vela Fiordaliso",
+          "Letture tra le Nubi",
+          "03/06/2026",
+          "Confermata"
+        ],
+        [
+          "Nubi Rametto",
+          "Laboratorio Lumo di carta",
+          "04/06/2026",
+          "Confermata"
+        ],
+        [
+          "Timo Lanterna",
+          "Vela: racconti in musica",
+          "05/06/2026",
+          "Confermata"
+        ],
+        [
+          "Menta Stellina",
+          "Storie del Bosco Blu",
+          "06/06/2026",
+          "Confermata"
+        ],
+        [
+          "Glicine Nuvola",
+          "Piccoli mondi di argilla",
+          "07/06/2026",
+          "In attesa"
+        ]
+      ],
+      "form": [
+        "Partecipante",
+        "Evento",
+        "Data iscrizione",
+        "Stato"
+      ]
+    }
+  ]
+}
